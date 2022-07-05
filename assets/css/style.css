@@ -1,0 +1,25 @@
+*{
+    margin: 0px;
+}
+.initial > nav > ul {
+    display: flex;
+    justify-content:left;
+    align-items: center;
+    height: 80px;
+    border: 0px;
+    background-color: rgb(6, 6, 177);
+   font-weight: 700;
+}
+.initial > nav > ul > ol > a {
+    text-decoration: none;
+    color: white;
+    float: left;
+    right: 50px;
+}
+
+.search{
+    height: 20px;
+    width: 100px;
+    justify-content: space-between;
+}
+   
