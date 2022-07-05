@@ -1,0 +1,11 @@
+.blog{
+    display: flex;
+}
+div.articles{
+    border: none;
+    margin: 50px;
+    width: 200px;
+}
+.news{
+    padding-left: 300px; 
+}
