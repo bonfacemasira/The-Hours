@@ -45,3 +45,25 @@
 video{
     width: 100%;
 }
+
+/* Left Bar */
+.leftBar{
+    float: left;
+    width: 6%;
+    height: 100vh;
+    position: fixed;
+    background-color: orange;
+}
+
+.backToTop{
+    position: absolute;
+    bottom: 5vh;
+    left: 30%;
+    text-align: center;
+    cursor: pointer;
+}
+
+.backToTop h4{
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+}
