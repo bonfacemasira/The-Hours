@@ -6,25 +6,42 @@
 
 .title{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 90%;
+    margin: auto;
 }
 
 .websiteHeader h1{
-    font-size: 15rem;
+    font-size: 10rem;
+    text-align: center;
 }
 
 .vertical{
-    border-left: 0.7rem solid black;
-    margin: 1rem;
+    border-left: 1rem solid black;
+    height: 9rem;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
 }
 
 .slogan{
-    width: 13%;
+    width: 9%;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .slogan h1{
-    font-size: 4rem;
+    font-size: 1.4rem;
 }
 
 .homeVideo{
     margin-top: 0.5rem;
+    width: 80%;
+    margin: auto;
+}
+
+video{
+    width: 100%;
 }
