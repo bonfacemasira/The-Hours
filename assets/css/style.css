@@ -1,0 +1,30 @@
+*{
+    font-family: 'Archivo Black', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.title{
+    display: flex;
+}
+
+.websiteHeader h1{
+    font-size: 15rem;
+}
+
+.vertical{
+    border-left: 0.7rem solid black;
+    margin: 1rem;
+}
+
+.slogan{
+    width: 13%;
+}
+
+.slogan h1{
+    font-size: 4rem;
+}
+
+.homeVideo{
+    margin-top: 0.5rem;
+}
